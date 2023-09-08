@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE=0-main.c ; ./0-preprocessor
+export CFILE=0-main.c && echo 'int main(void) { printf("Hello, World!\\n"); return (0); }' > "$CFILE" ; ./0-preprocessor
