@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "int main() { printf(\"Hello, World!\\n\"); return 0; }" > 0-main.c ; export CFILE=0-main.c ; ./0-preprocessor
+export CFILE=0-main.c ; ./0-preprocessor
