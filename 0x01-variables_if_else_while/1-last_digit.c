@@ -7,7 +7,17 @@
  */
 int main(void)
 {
-    int n = 98;
+    int n;
+
+    n = 98;
+
+    printf("Correct output with n = %d\n", n);
+
+    n = -98;
+
+    printf("Correct output with n = %d\n", n);
+
+    n = 980;
 
     printf("Correct output with n = %d\n", n);
 
