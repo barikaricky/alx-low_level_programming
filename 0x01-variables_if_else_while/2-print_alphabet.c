@@ -7,16 +7,9 @@
  */
 int main(void)
 {
-    char letter = 'a';
+    int n = 98;
 
-    while (letter <= 'z')
-    {
-        putchar(letter);
-        letter++;
-    }
-
-    putchar('\n');
+    printf("Correct output with n = %d\n", n);
 
     return (0);
 }
-
